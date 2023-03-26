@@ -1,0 +1,116 @@
+body {
+    background-color: #242323;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .avatar-container {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  
+  .avatar-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  main {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.2s ease-in-out;
+  }
+  
+  a:hover {
+    border-color: #fff;
+}
+
+/* Footer */
+footer {
+    position: absolute;
+    bottom: 30px;    
+    text-align: center;
+    left: 0;
+    right: 0;   
+}
+
+#caption {
+    color: white;
+    font-size: 24px;
+    text-shadow: 1px 1px black;
+}
+
+#html,
+#css,
+#javascript,
+#java,
+#laravel,
+#bootstrap,
+#react,
+#python {
+    display: inline-flex;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 0.25rem 1rem;
+    margin: 4px;
+    font-size: 18px;
+}
+
+#html:hover,
+#css:hover,
+#javascript:hover,
+#java:hover,
+#laravel:hover,
+#bootstrap:hover,
+#react:hover,
+#python:hover {
+    scale: 1.1;
+    background-color: aliceblue;
+    transition: 0.5s ease-out;
+    color: black;
+}
+
+#social-caption {
+    color: white;
+    font-size: 24px;
+}
+
+#social {
+    scale: 2.5;
+    margin: 2rem 0;
+}
